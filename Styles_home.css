@@ -1,0 +1,203 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body and Background */
+body {
+    background-color: white;
+    color: #3b3a36;
+}
+
+/* Header and Navbar */
+header {
+    background-color: #4d774e;
+    color: #fefefe;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fefefe;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #3b603b;
+}
+
+/* Main Content */
+.main-content {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Featured Image */
+.featured-image {
+    margin: auto;
+    width: 90%;
+    height: 350px;
+    background-image: url('https://www.sureshotayurveda.com/blog/wp-content/uploads/2020/10/pithaa_1603352607260.jpg'); /* Replace with the actual image */
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 1%;
+    margin-left:-1.5% ;
+    color: #4d774e;
+}
+
+.prakriti-section {
+    display: flex;
+    margin: auto;
+    max-width: 40%;
+    gap: 70px;
+    margin-bottom: 30px;
+}
+
+.prakriti-card {
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.prakriti-card:hover {
+    transform: scale(1.05);
+    background-color: white;
+}
+
+.prakriti-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+}
+
+/* Benefits Section */
+.benefits-section {
+    margin: auto;
+    max-width: 90%;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.benefits-content {
+    flex: 1.5;
+}
+
+.benefits-content h1 {
+    font-size: xx-large;
+    color: #4d774e;
+}
+
+.benefits-image {
+    flex: 1;
+}
+
+.benefits-image img {
+    width: 100%;
+    position: relative;
+    margin-top: 7%;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4d774e;
+    color: #fefefe;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    color: #fefefe;
+}
+
+.footer-section p,
+.footer-section ul,
+.footer-section a {
+    color: #fefefe;
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.footer-section a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #3b603b;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #fefefe;
+}

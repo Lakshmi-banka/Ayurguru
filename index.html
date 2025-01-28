@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Ayurguru</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            background-image: url('https://img.freepik.com/premium-photo/ayurveda-care-india-symbol-background-isolated-white-background_1279562-9416.jpg');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .center-block {
+            background-color: #f5ecdb;
+            padding: 40px;
+            text-align: center;
+            border-radius: 10px;
+            width: 400px;
+            animation: fadeIn 2s ease-out;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            opacity: 0.7;
+        }
+
+        .center-block h1 {
+            font-size: 24px;
+            color: #4d774e;
+            margin-bottom: 20px;
+        }
+
+        .center-block p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 30px;
+        }
+
+        .center-block button {
+            padding: 10px 20px;
+            background-color: #4d774e;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .center-block button:hover {
+            background-color: #218838;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 0.7;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="center-block">
+        <h1>Welcome to Ayurguru</h1>
+        <p>Discover your path to Ayurvedic wellness and balance through personalized recommendations based on your unique prakriti.</p>
+        <button onclick="enterSite()">Enter Ayurguru</button>
+    </div>
+
+    <script>
+        function enterSite() {
+            window.location.href = "home.html";
+        }
+    </script>
+</body>
+</html>
